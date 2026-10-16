@@ -90,7 +90,7 @@ Optional context: recipient, outreach channel, desired tone, relevant experience
 - **03. CV & Profile Optimization:** Tailor CV, LinkedIn, and other professional profiles.
 - **04. Interview Preparation:** Prepare evidence-backed stories and thoughtful questions.
 - **05. Offer Evaluation & Negotiation:** Evaluate compensation, flexibility, scope, and expectations.
-## Installation
+# Installation
 
 ## Manual installation for Codex
 
