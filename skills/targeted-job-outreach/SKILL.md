@@ -86,7 +86,36 @@ Optional context: recipient, outreach channel, desired tone, relevant experience
 
 ## Related Job-Search Skills
 
-- **02. Opportunity Qualification:** Decide which companies and roles deserve my time.
+- **02. Opportunity Qualification:** Decide which companies and roles deserve my time.(coming soon~)
 - **03. CV & Profile Optimization:** Tailor CV, LinkedIn, and other professional profiles.
 - **04. Interview Preparation:** Prepare evidence-backed stories and thoughtful questions.
 - **05. Offer Evaluation & Negotiation:** Evaluate compensation, flexibility, scope, and expectations.
+## Installation
+
+## Manual installation for Codex
+
+Open Terminal and run:
+
+```bash
+python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-installer/scripts/install-skill-from-github.py" \
+  --repo karihehw/job-search \
+  --path skills/targeted-job-outreach
+```
+
+The skill installs into your local Codex skills directory, which defaults to `~/.codex/skills/targeted-job-outreach`.
+
+Verify the installation:
+
+```bash
+ls "${CODEX_HOME:-$HOME/.codex}/skills/targeted-job-outreach/SKILL.md"
+```
+
+If the command prints the file path without an error, installation succeeded. The skill will be available on your next turn in Codex.
+
+### Usage
+
+Ask Codex:
+
+```text
+Use $targeted-job-outreach to help me apply for this role: [job link]
+```
