@@ -1,2 +1,2 @@
-# targeted-job-outreach
-a workflow for researching companies, identifying relevant experience, and writing better job pitches.  Building and refining these as I go.
+# job-search-skills
+TL;dr: a suite of job searching skills that will help you like it helped me.
